@@ -27,8 +27,8 @@
             A cotação do Euro hoje está $euro</br></br></br>
 
             Sua dinheiro <strong>R\$ " . number_format(floatval($currency), 2) . "</strong></br>
-            Em Dollar está <strong>U\$S" . number_format(floatval($currency) * $dollar, 2) . "</strong></br>
-            Em Euro está <strong>€" . number_format(floatval($currency) * $dollar, 2) . "</strong></p>"
+            Em Dollar está <strong>US\$ " . number_format(floatval($currency) * $dollar, 2) . "</strong></br>
+            Em Euro está <strong>€ " . number_format(floatval($currency) * $dollar, 2) . "</strong></p>"
             ?>
 
             <a href="javascript:history.go(-1)">
