@@ -38,10 +38,12 @@
                         $USD_price = round(($currency * $response->conversion_rates->USD), 2);
 
                         echo "
-                        <p>Your money <strong>R\$ $currency</strong></br>
+                        <p>Your money <strong>R\$ $currency</strong></br></br>
                         
                         Converted into Euro it is <strong>€ $EUR_price</strong></br>
-                        Converted into Dollar it is <strong>RS\$ $USD_price</strong>
+                        Converted into Dollar it is <strong>RS\$ $USD_price</strong></br></br>
+
+                        Quote obtained directly from <a class='link' target='_blank' href='https://www.exchangerate-api.com/docs/overview'>ExchangeRate-API</a>
                         </p>";
                     }
                 } catch (Exception $e) {
@@ -50,7 +52,7 @@
             }
             ?>
 
-            <a href="javascript:history.go(-1)">
+            <a id='page' href="javascript:history.go(-1)">
                 <button>Back page</button>
             </a>
         </main>
