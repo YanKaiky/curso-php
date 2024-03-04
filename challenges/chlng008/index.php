@@ -57,10 +57,10 @@
 
                 <div>
                     <p>
-                        Analisando so valores <?= $first_value ?> e <?= $second_value ?></br>
+                        Analyzing values <?= $first_value ?> and <?= $second_value ?></br>
 
-                        • A <strong>Média Aritmética Simples</strong> entre <?= $first_value ?> e <?= $second_value ?> é <?= $simple_arithmetic_mean ?></br>
-                        • A <strong>Média Aritmética Ponderada</strong> com pesos <?= $first_weight ?> e <?= $second_weight ?> é igual a <?= $weighted_arithmetic_mean ?>
+                        • The <strong>Simple Arithmetic Mean</strong> between <?= $first_value ?> and <?= $second_value ?> is <?= $simple_arithmetic_mean ?></br>
+                        • The <strong>Weighted Arithmetic Mean</strong> with weights <?= $first_weight ?> and <?= $second_weight ?> is equal to <?= $weighted_arithmetic_mean ?>
                     </p>
                 </div>
             </div>
