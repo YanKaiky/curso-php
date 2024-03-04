@@ -19,11 +19,11 @@
     $phase = "";
 
     if ($salary > minimumWage) {
-        $phase = "<p>Quem recebe um salário de <strong>R$ $salary</strong> ganha <strong>$quantity_minimum_wage</strong> salários mínimos + </br><strong>R$ $difference</strong></p>";
+        $phase = "<p>Anyone who receives a salary of <strong>R$ $salary</strong> earns <strong>$quantity_minimum_wage</strong> minimum wages + </br><strong>R$ $difference</strong></p>";
     } elseif ($salary === minimumWage) {
-        $phase = "<p>Quem recebe um salário de <strong>R$ $salary</strong> ganha <strong>1 salário mínimo</strong></p>";
+        $phase = "<p>Anyone who receives a salary of <strong>R$ $salary</strong> earns <strong>1 minimum wage</strong></p>";
     } else {
-        $phase = "<p>Quem recebe um salário de <strong>R$ $salary</strong> ganha menos que um salário mínimo</p>";
+        $phase = "<p>Anyone who receives a salary of <strong>R$ $salary</strong> earns less than 1 minimum wages</p>";
     }
     ?>
 
