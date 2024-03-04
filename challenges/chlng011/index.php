@@ -53,12 +53,6 @@
             </div>
         </section>
     </div>
-
-    <script>
-        document.getElementById('percent').addEventListener('input', function() {
-            document.getElementById('percent-value').innerText = this.value + '%';
-        });
-    </script>
 </body>
 
 </html>
